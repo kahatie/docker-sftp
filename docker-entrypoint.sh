@@ -13,7 +13,7 @@ if [ -z "$PASSWORD" ]; then
 fi
 
 echo "Creating user ${USER}"
-adduser -D --no-create-home --shell /usr/lib/sftp-server ${USER}
+adduser -D --no-create-home ${USER}
 
 echo "Setting password"
 echo "${USER}:${PASSWORD}" | chpasswd
