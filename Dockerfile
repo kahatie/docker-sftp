@@ -1,4 +1,4 @@
-FROM alipine:3
+FROM alpine:3
 
 RUN apk add --update --no-cache openssh openssh-sftp-server dropbear \
     && mkdir /etc/dropbear \
