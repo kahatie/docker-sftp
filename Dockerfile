@@ -10,4 +10,4 @@ RUN chmod +x /docker-entrypoint.sh
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
-CMD ["dropbear", "-RFEmwg", "-p", "22"]
+CMD ["dropbear", "-RFEwg", "-p", "22"]
