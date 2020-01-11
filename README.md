@@ -1,7 +1,7 @@
 # docker-sftp
 alipine based sftp
 
-Usage
+## Usage
 
 It takes 2 variables: USER and PASSWORD, both in cleartext. Redirect the TCP/22 port to whatever port you want.
 
@@ -13,7 +13,7 @@ It takes 2 variables: USER and PASSWORD, both in cleartext. Redirect the TCP/22 
     kahatie/docker-sftp
 
 
-Dropbear Notes
+## Dropbear Notes
 
 Options used in this container:
 
