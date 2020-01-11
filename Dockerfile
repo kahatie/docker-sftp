@@ -2,9 +2,7 @@ FROM alpine:3
 
 RUN apk add --update --no-cache openssh openssh-sftp-server dropbear \
     && mkdir /etc/dropbear \
-    && mkdir /mnt \
     && touch /var/log/lastlog
-
 
 COPY docker-entrypoint.sh /
 
